@@ -18,7 +18,7 @@ void dfs(int cnt) {
 			}
 			cout << "\n";
 		}
-		return;
+		exit(0);
 	}
 
 	if (map[x][y] == 0) {
